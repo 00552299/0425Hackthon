@@ -1,0 +1,26 @@
+{
+    "name": "hackathon",
+    "version": "0.1.0",
+    "private": true,
+    "description": "本仓库已按以下结构重建，包含 WebXR 前端与 Node.js 后端的最小可运行模板。",
+    "homepage": "https://github.com/00552299/0425Hackthon#readme",
+    "bugs": {
+        "url": "https://github.com/00552299/0425Hackthon/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/00552299/0425Hackthon.git"
+    },
+    "license": "ISC",
+    "author": "",
+    "type": "commonjs",
+    "main": "index.js",
+    "workspaces": [
+        "client",
+        "server"
+    ],
+    "scripts": {
+        "dev:client": "npm --workspace client run dev",
+        "dev:server": "npm --workspace server run dev"
+    }
+}
